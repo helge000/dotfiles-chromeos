@@ -1,0 +1,17 @@
+# ignore for my home directory
+/*
+.git/*
+.gitlab
+.gitk
+!README.md
+!LICENSE
+!setup/
+!.vim/*
+!.vimrc
+!.zsh*
+!.bashrc
+!.gtkrc-2.0
+!.git*
+!.editorconfig
+!crosh-setup.sh
+

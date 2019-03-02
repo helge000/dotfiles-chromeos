@@ -1,0 +1,3 @@
+# crew: huge fonts with GTK2
+# https://github.com/skycocker/chromebrew/wiki/FAQ
+gtk-font-name="sans-serif 6"

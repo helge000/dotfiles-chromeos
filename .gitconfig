@@ -1,0 +1,22 @@
+[user]
+	name = Daniel Helgenberger
+	email = daniel.helgenberger@m-box.de
+	signingkey = 0xC729580AC46307BE
+[branch]
+	autosetuprebase = always
+[push]
+	default = current
+[core]
+	editor = vim
+[color]
+	ui = true
+[alias]
+	test = "!gi() { curl -s http://www.gitignore.io/api/$@ ;}; gi"
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = false
